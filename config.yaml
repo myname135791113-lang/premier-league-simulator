@@ -1,0 +1,36 @@
+# Seasons are named by their start year: 2016 = 2016/17.
+seasons:
+  first: 2016
+  current: 2026
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  db: data/processed/football.db
+  manual: data/manual
+
+fetch:
+  # Minimum gap between two requests to the same host.
+  min_delay_seconds: 1.5
+
+# Phase B settings. Values here are starting points; step 12 tunes them.
+model:
+  window_days: 1460               # matches older than this are ignored
+  time_decay_per_day: 0.0018      # form: exponential decay, tuned by backtest
+  xg_weight: 0.6                  # blend of xG vs goals when rating teams
+  prior_sigma: 0.35               # shrinkage of team strengths toward their prior
+  manager_reset:
+    enabled: true
+    kappa: 0.5                    # weight on matches before the current manager (1 = no reset)
+  injuries:
+    auto: true                    # impact-weighted from xG / xA / minutes share
+    attack_beta: 0.3              # share of a missing player's attacking output that is lost (backtest best)
+    defence_beta: 0.6             # disruption from missing regular defenders or keeper (backtest best)
+    manual_overrides: true        # data/manual/adjustments.csv applied on top
+  style_matchups:
+    enabled: false                # kept only if the backtest improves RPS
+
+# Manager-sim engine (player-level, minute by minute).
+engine:
+  weight: 0.05                    # fixed share of the final prediction
+  sims: 1000

@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-05T18:26:00+00:00",
+  "title": "Design System: Matchday",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Programme Ink",
+        "canonical": "#111b31",
+        "tonalRamp": [
+          "#141f39",
+          "#223662",
+          "#314d8c",
+          "#3f64b6",
+          "#6483c9",
+          "#8da5d8",
+          "#bbc9e7",
+          "#ecf0f8"
+        ]
+      },
+      "ink-2": {
+        "role": "primary",
+        "displayName": "Ink Raised",
+        "canonical": "#1b2744",
+        "tonalRamp": [
+          "#161f37",
+          "#26365f",
+          "#364d87",
+          "#4664af",
+          "#6984c4",
+          "#91a5d4",
+          "#bdc9e5",
+          "#edf0f8"
+        ]
+      },
+      "ink-3": {
+        "role": "primary",
+        "displayName": "Ink Hairline",
+        "canonical": "#2b385a",
+        "tonalRamp": [
+          "#192034",
+          "#2b385a",
+          "#3d4f80",
+          "#4f67a6",
+          "#7286bb",
+          "#97a6ce",
+          "#c1cae1",
+          "#eef0f7"
+        ]
+      },
+      "on-ink": {
+        "role": "primary",
+        "displayName": "Ink Paper Text",
+        "canonical": "#eef1f7",
+        "tonalRamp": [
+          "#182234",
+          "#2a3a5a",
+          "#3c5380",
+          "#4e6ca6",
+          "#718abc",
+          "#97a9ce",
+          "#c1cce2",
+          "#eef1f7"
+        ]
+      },
+      "on-ink-2": {
+        "role": "primary",
+        "displayName": "Ink Secondary Text",
+        "canonical": "#aab4ca",
+        "tonalRamp": [
+          "#1d232f",
+          "#333d52",
+          "#485674",
+          "#5e7097",
+          "#7e8daf",
+          "#a1acc4",
+          "#c6cddc",
+          "#eff1f5"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Programme Gold",
+        "canonical": "#f2c230",
+        "tonalRamp": [
+          "#483705",
+          "#7d6008",
+          "#b2880b",
+          "#e6b10e",
+          "#f3c53a",
+          "#f6d56f",
+          "#fae6a9",
+          "#fdf8e7"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Coated White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262a33",
+          "#3d424d",
+          "#565c69",
+          "#737a88",
+          "#9399a6",
+          "#b5bac4",
+          "#d9dce3",
+          "#ffffff"
+        ]
+      },
+      "tint": {
+        "role": "neutral",
+        "displayName": "Programme Tint",
+        "canonical": "#f0f2f6",
+        "tonalRamp": [
+          "#1d2330",
+          "#323d53",
+          "#475676",
+          "#5c7099",
+          "#7c8eb1",
+          "#9facc6",
+          "#c6cddd",
+          "#eff1f5"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#dde0e7",
+        "tonalRamp": [
+          "#20242d",
+          "#373e4e",
+          "#4e586f",
+          "#657290",
+          "#848fa8",
+          "#a5adc0",
+          "#c9ced9",
+          "#f0f1f4"
+        ]
+      },
+      "rule-2": {
+        "role": "neutral",
+        "displayName": "Firm Hairline",
+        "canonical": "#c3c9d5",
+        "tonalRamp": [
+          "#1f242d",
+          "#373e4e",
+          "#4e596f",
+          "#657390",
+          "#8490a9",
+          "#a5aec0",
+          "#c9ced9",
+          "#f0f2f4"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Print Black",
+        "canonical": "#131a2b",
+        "tonalRamp": [
+          "#172035",
+          "#29385c",
+          "#3a4f83",
+          "#4b67aa",
+          "#6e86bf",
+          "#95a6d0",
+          "#bfcae3",
+          "#edf0f7"
+        ]
+      },
+      "text-2": {
+        "role": "neutral",
+        "displayName": "Body Slate",
+        "canonical": "#465068",
+        "tonalRamp": [
+          "#1f232e",
+          "#353d4f",
+          "#4c5771",
+          "#627192",
+          "#828eab",
+          "#a4acc1",
+          "#c8cdda",
+          "#f0f1f5"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Caption Grey",
+        "canonical": "#646d82",
+        "tonalRamp": [
+          "#21242b",
+          "#3a3f4b",
+          "#52596b",
+          "#6a748a",
+          "#8991a4",
+          "#a9afbc",
+          "#cbcfd7",
+          "#f1f2f4"
+        ]
+      },
+      "edge": {
+        "role": "tertiary",
+        "displayName": "Edge Green",
+        "canonical": "#0b7f54",
+        "tonalRamp": [
+          "#06462f",
+          "#0b7a51",
+          "#0fae73",
+          "#14e195",
+          "#3feead",
+          "#72f3c3",
+          "#abf8db",
+          "#e8fdf5"
+        ]
+      },
+      "edge-wash": {
+        "role": "tertiary",
+        "displayName": "Edge Wash",
+        "canonical": "#e2f2ea",
+        "tonalRamp": [
+          "#183526",
+          "#295c42",
+          "#3a825e",
+          "#4ca97a",
+          "#6fbe96",
+          "#95d0b2",
+          "#c0e3d1",
+          "#edf7f2"
+        ]
+      },
+      "edge-on-ink": {
+        "role": "tertiary",
+        "displayName": "Edge Green on Ink",
+        "canonical": "#5fd3a2",
+        "tonalRamp": [
+          "#113c2a",
+          "#1d6848",
+          "#299467",
+          "#35c085",
+          "#5bd2a0",
+          "#87deb9",
+          "#b7ebd5",
+          "#ebfaf3"
+        ]
+      },
+      "stamp": {
+        "role": "tertiary",
+        "displayName": "Stamp Red",
+        "canonical": "#c43a25",
+        "tonalRamp": [
+          "#40130c",
+          "#702115",
+          "#9f2f1e",
+          "#ce3d27",
+          "#de624f",
+          "#e78c7e",
+          "#f0bab2",
+          "#fbecea"
+        ]
+      },
+      "stamp-wash": {
+        "role": "tertiary",
+        "displayName": "Stamp Wash",
+        "canonical": "#fbe8e4",
+        "tonalRamp": [
+          "#43140a",
+          "#732211",
+          "#a43118",
+          "#d53f20",
+          "#e46449",
+          "#eb8d7a",
+          "#f3bbaf",
+          "#fcece9"
+        ]
+      },
+      "home": {
+        "role": "data",
+        "displayName": "Home",
+        "canonical": "#111b31",
+        "tonalRamp": [
+          "#141f39",
+          "#223662",
+          "#314d8c",
+          "#3f64b6",
+          "#6483c9",
+          "#8da5d8",
+          "#bbc9e7",
+          "#ecf0f8"
+        ]
+      },
+      "draw": {
+        "role": "data",
+        "displayName": "Draw",
+        "canonical": "#a3abbd",
+        "tonalRamp": [
+          "#20242d",
+          "#373e4d",
+          "#4f586e",
+          "#66738f",
+          "#8590a8",
+          "#a6aebf",
+          "#caced9",
+          "#f0f1f4"
+        ]
+      },
+      "away": {
+        "role": "data",
+        "displayName": "Away",
+        "canonical": "#56699a",
+        "tonalRamp": [
+          "#1b2131",
+          "#303a55",
+          "#445379",
+          "#586b9d",
+          "#7989b4",
+          "#9da9c8",
+          "#c4cbde",
+          "#eff1f6"
+        ]
+      },
+      "rise-blue": {
+        "role": "data",
+        "displayName": "Rise Blue",
+        "canonical": "#1d3f86",
+        "tonalRamp": [
+          "#0e1e3f",
+          "#18336d",
+          "#22499b",
+          "#2c5fc9",
+          "#537fda",
+          "#81a1e4",
+          "#b4c7ef",
+          "#eaeffa"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Masthead page heads only; ultra-condensed caps (wdth 62, uppercase)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Team names in the programme head and the player drawer name; uppercase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section heads in condensed caps; 21px for panel heads."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "The big three outcome probabilities."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Kickoff times, shirt numbers, likeliest scores, stamp-cell values, positions."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text; notes cap at 70ch."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Tables, lists and programme detail; dense tables at 12.5px."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Table heads, fact labels, axis and field labels; sentence case, muted."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Buttons, nav and toggles; uppercase condensed caps."
+      },
+      "folio": {
+        "displayName": "Folio",
+        "purpose": "The running head 'MW n \u00b7 p.0N'; uppercase."
+      }
+    },
+    "shadows": [
+      {
+        "name": "Print edge",
+        "value": "inset 0 0 0 1px rgb(17 27 49 / .12)",
+        "purpose": "Keeps pale club colours visible on crests, swatches and bars."
+      },
+      {
+        "name": "Surface ring",
+        "value": "0 0 0 2px #ffffff",
+        "purpose": "Separates overlapping dots in the backtest dot plot."
+      },
+      {
+        "name": "Outlier frame",
+        "value": "inset 0 0 0 1px #c43a25",
+        "purpose": "Doubles the stamp-red border of an outlier cell."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Strip entrance, sheet settle, progress bar."
+      },
+      {
+        "name": "strip-in",
+        "value": "none: pages and strips appear at rest; motion is feedback only (what-if fade 0.3s, number count 420ms)",
+        "purpose": "The one authored entrance for the round."
+      },
+      {
+        "name": "settle",
+        "value": "450ms",
+        "purpose": "Team-sheet rows settling after a what-if remap."
+      },
+      {
+        "name": "count-to",
+        "value": "420ms cubic ease-out",
+        "purpose": "What-if numbers counting to new values."
+      },
+      {
+        "name": "state",
+        "value": "150ms",
+        "purpose": "Hover and colour state changes."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "prefers-reduced-motion removes all transitions and animations."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "programme-stack",
+        "value": "1280px"
+      },
+      {
+        "name": "hub-single",
+        "value": "1100px"
+      },
+      {
+        "name": "rail-topbar",
+        "value": "820px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink action on white pages.",
+      "html": "<button class=\"ds-btn\">Try again</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 16px; border: 1px solid #111b31; background: #111b31; color: #eef1f7; border-radius: 0; cursor: pointer; transition: background .15s, transform .1s; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; font-weight: 700; font-stretch: 80%; text-transform: uppercase; letter-spacing: .04em; font-size: 14px; } .ds-btn:hover { background: #1b2744; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid #111b31; outline-offset: 2px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action; ink border and text.",
+      "html": "<button class=\"ds-btn-ghost\">Reset tactics</button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border: 1px solid #111b31; background: transparent; color: #111b31; border-radius: 0; cursor: pointer; transition: background .15s; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; font-weight: 700; font-stretch: 80%; text-transform: uppercase; letter-spacing: .04em; font-size: 14px; } .ds-btn-ghost:hover { background: #f0f2f6; } .ds-btn-ghost:focus-visible { outline: 2px solid #111b31; outline-offset: 2px; }"
+    },
+    {
+      "name": "Update Now (on ink)",
+      "kind": "button",
+      "refersTo": "button-on-ink",
+      "description": "The only gold button, at the foot of the ink rail.",
+      "html": "<div class=\"ds-ink\"><button class=\"ds-btn-gold\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19.5 12a7.5 7.5 0 1 1-2.2-5.3\"/><path d=\"M19.5 4.5v4h-4\"/></svg>Update now</button></div>",
+      "css": ".ds-ink { background: #111b31; padding: 16px; } .ds-btn-gold { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 16px; border: 1px solid #f2c230; background: #f2c230; color: #111b31; border-radius: 0; cursor: pointer; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; font-weight: 700; font-stretch: 80%; text-transform: uppercase; letter-spacing: .04em; font-size: 14px; } .ds-btn-gold:hover { background: #ffd24f; } .ds-btn-gold:focus-visible { outline: 2px solid #f2c230; outline-offset: 2px; }"
+    },
+    {
+      "name": "Rail Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Condensed caps nav on the ink rail; active icon turns gold.",
+      "html": "<nav class=\"ds-rail\"><a class=\"ds-nav is-active\" href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3.5\" y=\"4.5\" width=\"17\" height=\"15\" rx=\"1.5\"/><path d=\"M3.5 9.5h17M8 2.5v4M16 2.5v4\"/></svg>Matchweek</a><a class=\"ds-nav\" href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 18.5c2 0 3-5 5-5s2.5 3 4 3 2.5-9 4.5-9 2.5 11 4.5 11\"/><path d=\"M3 21h18\"/></svg>Season</a></nav>",
+      "css": ".ds-rail { background: #111b31; padding: 14px; display: grid; gap: 2px; width: 236px; } .ds-nav { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 0; color: #aab4ca; text-decoration: none; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; font-weight: 700; font-stretch: 75%; font-size: 17px; text-transform: uppercase; letter-spacing: .03em; transition: background .15s, color .15s; } .ds-nav:hover, .ds-nav.is-active { background: #1b2744; color: #eef1f7; } .ds-nav.is-active svg { color: #f2c230; } .ds-nav:focus-visible { outline: 2px solid #f2c230; outline-offset: 2px; }"
+    },
+    {
+      "name": "Select",
+      "kind": "input",
+      "refersTo": "select",
+      "description": "Labelled native select with an inline ink chevron.",
+      "html": "<label class=\"ds-select\"><span>Formation</span><select><option>4-2-3-1</option><option>4-3-3</option></select></label>",
+      "css": ".ds-select { display: inline-grid; gap: 4px; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; } .ds-select span { font-size: 12px; color: #646d82; font-weight: 600; } .ds-select select { appearance: none; min-height: 38px; padding: 0 34px 0 12px; border: 1px solid #c3c9d5; border-radius: 0; font: inherit; font-weight: 600; color: #131a2b; cursor: pointer; background: #fff url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23111b31' stroke-width='1.6'/%3E%3C/svg%3E\") no-repeat right 12px center; } .ds-select select:hover { border-color: #111b31; } .ds-select select:focus-visible { outline: 2px solid #111b31; outline-offset: 2px; }"
+    },
+    {
+      "name": "Segmented Toggle",
+      "kind": "chip",
+      "refersTo": "seg-toggle-selected",
+      "description": "Joined view switch; the selected segment fills ink.",
+      "html": "<div class=\"ds-seg\" role=\"tablist\"><button aria-selected=\"true\">Stamps</button><button aria-selected=\"false\">Table</button><button aria-selected=\"false\">Chart</button></div>",
+      "css": ".ds-seg { display: inline-flex; border: 1px solid #c3c9d5; border-radius: 0; overflow: hidden; } .ds-seg button { border: 0; background: #fff; padding: 0 14px; min-height: 36px; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; font-weight: 700; font-stretch: 80%; text-transform: uppercase; letter-spacing: .04em; font-size: 13px; color: #465068; cursor: pointer; } .ds-seg button + button { border-left: 1px solid #c3c9d5; } .ds-seg button:hover { background: #f0f2f6; } .ds-seg button[aria-selected=\"true\"] { background: #111b31; color: #eef1f7; } .ds-seg button:focus-visible { outline: 2px solid #111b31; outline-offset: -2px; }"
+    },
+    {
+      "name": "Fixture Strip",
+      "kind": "card",
+      "refersTo": "fixture-strip",
+      "description": "One fixture: club bands at both ends, kickoff, crests, H/D/A bar, likeliest score, edge chip.",
+      "html": "<a class=\"ds-strip\" href=\"#\"><span class=\"ds-band\" style=\"--c1:#ef0107;--c2:#ffffff\"></span><span class=\"ds-time\">Sat 10 Oct<b>11:30</b></span><span class=\"ds-crest\" style=\"background:linear-gradient(#ef0107 0 78%,#fff 78%);color:#fff\">ARS</span><span class=\"ds-hda\"><span style=\"flex:61;background:#111b31;color:#fff\">61%</span><span style=\"flex:23;background:#a3abbd;color:#111b31\">23%</span><span style=\"flex:16;background:#56699a;color:#fff\">16%</span></span><span class=\"ds-crest\" style=\"background:linear-gradient(#1d428a 0 78%,#ffcd00 78%);color:#fff\">LEE</span><b class=\"ds-likely\">2-0</b><span class=\"ds-edge\">+4.2%</span><span class=\"ds-band\" style=\"--c1:#1d428a;--c2:#ffcd00\"></span></a>",
+      "css": ".ds-strip { display: grid; grid-template-columns: 8px 84px auto minmax(160px,1fr) auto 40px auto 8px; align-items: center; gap: 12px; min-height: 64px; background: #fff; border: 1px solid #dde0e7; border-radius: 0; text-decoration: none; color: #131a2b; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; transition: border-color .15s; } .ds-strip:hover { border-color: #c3c9d5;  } .ds-strip:focus-visible { outline: none; border-color: #111b31; outline: 1px solid #111b31; outline-offset: -2px; } .ds-band { align-self: stretch; background: linear-gradient(var(--c1) 0 62%, var(--c2) 62%); } .ds-strip > .ds-band:first-child { border-radius: 0; } .ds-strip > .ds-band:last-child { border-radius: 0; } .ds-time { display: grid; color: #646d82; font-size: 12px; font-weight: 600; } .ds-time b { color: #131a2b; font-size: 18px; font-weight: 800; font-stretch: 70%; } .ds-crest { display: inline-grid; place-items: center; min-width: 40px; height: 24px; border-radius: 0; font-weight: 800; font-stretch: 70%; font-size: 13px; letter-spacing: .04em; box-shadow: inset 0 0 0 1px rgb(17 27 49 / .12); } .ds-hda { display: flex; gap: 2px; height: 26px; border-radius: 0; overflow: hidden; } .ds-hda span { display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 12.5px; font-variant-numeric: tabular-nums; } .ds-likely { font-weight: 800; font-stretch: 70%; font-size: 17px; color: #465068; } .ds-edge { padding: 4px 9px; border-radius: 0; background: #e2f2ea; color: #0b7f54; font-weight: 800; font-size: 12.5px; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Edge Chip and Flag",
+      "kind": "chip",
+      "refersTo": "edge-chip",
+      "description": "The reserved edge-green pill beside the stamp-red flag; each used only for its meaning.",
+      "html": "<span class=\"ds-edge-chip\">Home +4.2%</span> <span class=\"ds-flag\">Outlier</span>",
+      "css": ".ds-edge-chip { display: inline-flex; align-items: center; padding: 4px 9px; border-radius: 0; background: #e2f2ea; color: #0b7f54; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; font-weight: 800; font-size: 12.5px; font-variant-numeric: tabular-nums; } .ds-flag { display: inline-block; padding: 1px 6px; border-radius: 0; background: #fbe8e4; color: #c43a25; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; font-size: 11.5px; font-weight: 700; }"
+    },
+    {
+      "name": "Stamp Cell with Ringed Outlier",
+      "kind": "custom",
+      "refersTo": "stamp-cell",
+      "description": "Dense player grid cell; outliers ringed by hand in stamp red.",
+      "html": "<div class=\"ds-stamps\"><a class=\"ds-stamp\" href=\"#\"><span class=\"ds-sband\" style=\"background:linear-gradient(90deg,#6cabdd 0 70%,#1c2c5b 70%)\"></span><b>0.71</b><span class=\"n\">E. Haaland</span><span class=\"t\">MCI \u00b7 xG/90</span></a><a class=\"ds-stamp is-ring\" href=\"#\"><span class=\"ds-sband\" style=\"background:linear-gradient(90deg,#ef0107 0 70%,#fff 70%)\"></span><b>0.94</b><span class=\"n\">K. Havertz</span><span class=\"t\">ARS \u00b7 xG/90</span></a></div>",
+      "css": ".ds-stamps { display: grid; grid-template-columns: repeat(2, 120px); gap: 6px; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; } .ds-stamp { display: grid; padding: 0 9px 8px; background: #fff; border: 1px solid #dde0e7; border-radius: 0; text-decoration: none; color: #131a2b; transition: border-color .15s; } .ds-stamp:hover, .ds-stamp:focus-visible { border-color: #111b31; outline: none; } .ds-sband { display: block; height: 5px; margin: 0 -9px 7px; } .ds-stamp b { font-weight: 800; font-stretch: 70%; font-size: 21px; line-height: 1.05; font-variant-numeric: tabular-nums; justify-self: start; } .ds-stamp .n { font-size: 12.5px; font-weight: 600; } .ds-stamp .t { font-size: 11px; color: #646d82; } .ds-stamp.is-ring { border-color: #c43a25; } .ds-stamp.is-ring { box-shadow: inset 0 0 0 1px #c43a25; } .ds-stamp.is-ring b { color: #c43a25; }"
+    },
+    {
+      "name": "Team Sheet",
+      "kind": "custom",
+      "refersTo": "team-sheet",
+      "description": "The signature: a numbered XI under a club band, grouped by line, with rating bars.",
+      "html": "<div class=\"ds-sheet\"><div class=\"ds-sheet-head\"><span class=\"ds-sheet-band\" style=\"background:linear-gradient(90deg,#ef0107 0 70%,#fff 70%)\"></span><b>Arsenal</b><span>4-2-3-1</span></div><div class=\"ds-line\">Goalkeeper</div><div class=\"ds-p\"><b>1</b><span>David Raya</span><i style=\"--v:.65\"></i><em>13</em></div><div class=\"ds-line\">Defence</div><div class=\"ds-p\"><b>2</b><span>Jurrien Timber</span><i style=\"--v:.85\"></i><em>17</em></div><div class=\"ds-p\"><b>4</b><span>Gabriel</span><i style=\"--v:.9\"></i><em>18</em></div></div>",
+      "css": ".ds-sheet { width: 300px; border: 1px solid #dde0e7; border-radius: 0; overflow: hidden; padding-bottom: 12px; background: #fff; color: #131a2b; font-family: Archivo, 'Segoe UI', system-ui, sans-serif; } .ds-sheet-head { display: grid; grid-template-columns: 1fr auto; align-items: baseline; padding: 0 14px; } .ds-sheet-band { grid-column: 1 / -1; height: 6px; margin: 0 -14px 10px; } .ds-sheet-head b { font-weight: 800; font-stretch: 72%; text-transform: uppercase; font-size: 18px; letter-spacing: .02em; } .ds-sheet-head span { font-weight: 800; font-stretch: 66%; font-size: 20px; color: #111b31; } .ds-line { padding: 8px 14px 3px; color: #646d82; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; } .ds-p { display: grid; grid-template-columns: 26px 1fr 36px 22px; gap: 8px; align-items: center; padding: 4px 14px; transition: background .3s; } .ds-p:hover { background: #f0f2f6; } .ds-p b { font-weight: 800; font-stretch: 66%; font-size: 17px; color: #111b31; } .ds-p span { font-size: 14px; font-weight: 600; } .ds-p i { display: none; } .ds-p em { font-style: normal; font-size: 13px; text-align: right; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Matchday Programme",
+    "overview": "Every screen is a page of the programme you buy at the turnstile: a deep programme-ink rail and ink header fields, pages printed on bright coated white, condensed grotesque caps for page heads, numbers and section titles, and folio numbers (\"MW 6 \u00b7 p.01\") in the running head. Club identity is printed content, never chrome: two-colour bands down the edge of a fixture strip, a crest tab with the short name, a swatch beside a table row, a series in a chart. The back-page team sheet, two numbered XIs facing each other, is the signature, and it redraws live when the what-if tactics change.\n\nDensity is that of a stats page, not a dashboard. Data sits on hairline programme rules rather than in boxed cards; panels are separated by a hairline above and a 2px ink rule under the section head. One committed light theme. Colour is spent with discipline: ink carries structure and the \"home\" side, gold is the ink field's single highlight, edge green belongs to the model's edge over the market and nothing else, and stamp red marks absences, misses and outliers.\n\nThe world refuses the category default: a grey dashboard of identical rounded cards with one blue accent.",
+    "keyCharacteristics": [
+      "Ink rail (236px) and ink mastheads over coated-white pages.",
+      "Archivo variable (self-hosted, wdth 62 to 125): ultra-condensed 800 caps for display, condensed caps for heads, controls and figures; normal width for reading.",
+      "Folio running heads, \"MW n \u00b7 p.0N\", bottom-right of every masthead.",
+      "Club colours only as bands, crests, swatches and chart series.",
+      "One reserved colour (edge green) and one alarm colour (stamp red).",
+      "Hairline rules, small 3px corners, tabular numerals everywhere numbers align."
+    ],
+    "rules": [
+      {
+        "name": "The Reserved Green Rule",
+        "body": "Edge green marks the model's edge over the market and nothing else. Not success, not \"up\", not a positive delta.",
+        "section": "colors"
+      },
+      {
+        "name": "The Stamp Rule",
+        "body": "Stamp red is spent only on absences, misses, outliers and failures. If nothing is wrong or unusual, no red appears.",
+        "section": "colors"
+      },
+      {
+        "name": "The Club Colour Is Content Rule",
+        "body": "Club colours appear as bands, crests, swatches and chart series. Never as a page background, button, link or text colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gold Lives On Ink Rule",
+        "body": "Gold is the highlight of the ink field. On white pages emphasis comes from ink weight and condensed caps.",
+        "section": "colors"
+      },
+      {
+        "name": "The Width Is the Hierarchy Rule",
+        "body": "Rank is carried by the width axis as much as by size: wdth 62 for display, 66 to 72 for heads and figures, 75 to 80 for controls, 100 for reading. Never set long reading text condensed.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Any number that sits in a column, bar or comparison uses tabular figures.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Page Rule",
+        "body": "Pages, panels and tables are flat at rest. Shadow is a state or an overlay, always ink-tinted and soft.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do open every view with an ink masthead carrying the display head, a facts row and the folio \"MW n \u00b7 p.0N\".",
+      "Do set page heads in Archivo 800 at wdth 62, uppercase, and reading text at normal width.",
+      "Do show club identity with bands, crests and swatches, and pick ink or white for text on club colour by luminance.",
+      "Do use the fixed home/draw/away colours for every outcome split.",
+      "Do separate content with hairline rules and the 2px ink rule under section heads instead of boxed cards.",
+      "Do use tabular figures for every number in a column, bar or comparison.",
+      "Do label chart series at their line ends, in text colours."
+    ],
+    "donts": [
+      "Don't use edge green for anything except the model's edge over the market.",
+      "Don't use stamp red for decoration or emphasis; it means absent, missed, outlier or failed.",
+      "Don't use club colours as page backgrounds, buttons, links or text.",
+      "Don't put gold on white pages; it belongs to the ink field.",
+      "Don't build a grey dashboard of identical rounded cards with one blue accent.",
+      "Don't add a dark theme; the programme is a single committed light theme.",
+      "Don't pull fonts or scripts from a CDN; the app runs offline."
+    ]
+  }
+}

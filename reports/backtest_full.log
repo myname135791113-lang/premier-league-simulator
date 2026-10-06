@@ -1,0 +1,21 @@
+base_rates     rps=0.23477  log_loss=1.06609  brier=0.64543
+elo            rps=0.20289  log_loss=0.97651  brier=0.57996
+maher          rps=0.20495  log_loss=0.98559  brier=0.58394
+dc_goals       rps=0.20176  log_loss=0.97299  brier=0.57743
+dc_xg          rps=0.20122  log_loss=0.97101  brier=0.57614
+dc_xg_mgr      rps=0.20045  log_loss=0.96928  brier=0.57474
+dc_xg_mgr_style rps=0.20053  log_loss=0.96963  brier=0.57496
+dc_xg_mgr_inj  rps=0.19883  log_loss=0.96513  brier=0.57153
+closing_odds   rps=0.19528  log_loss=0.95353  brier=0.56359
+
+Seasons 2019/20–2023/24
+          model    n     rps  log_loss   brier
+   closing_odds 1900 0.19528   0.95353 0.56359
+  dc_xg_mgr_inj 1900 0.19883   0.96513 0.57153
+      dc_xg_mgr 1900 0.20045   0.96928 0.57474
+dc_xg_mgr_style 1900 0.20053   0.96963 0.57496
+          dc_xg 1900 0.20122   0.97101 0.57614
+       dc_goals 1900 0.20176   0.97299 0.57743
+            elo 1900 0.20289   0.97651 0.57996
+          maher 1900 0.20495   0.98559 0.58394
+     base_rates 1900 0.23477   1.06609 0.64543
